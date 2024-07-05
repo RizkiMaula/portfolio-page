@@ -791,6 +791,18 @@ select{
   width: 100%;
 }
 
+.w-\[900rem\]{
+  width: 900rem;
+}
+
+.w-\[90rem\]{
+  width: 90rem;
+}
+
+.w-\[50rem\]{
+  width: 50rem;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -825,6 +837,10 @@ select{
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-0{
+  gap: 0px;
 }
 
 .rounded-2xl{
@@ -1006,6 +1022,14 @@ select{
     width: 100%;
   }
 
+  .sm\:w-\[30rem\]{
+    width: 30rem;
+  }
+
+  .sm\:flex-row{
+    flex-direction: row;
+  }
+
   .sm\:flex-col{
     flex-direction: column;
   }
@@ -1018,6 +1042,10 @@ select{
     justify-content: space-evenly;
   }
 
+  .sm\:border-4{
+    border-width: 4px;
+  }
+
   .sm\:text-left{
     text-align: left;
   }
@@ -1025,11 +1053,48 @@ select{
   .sm\:text-center{
     text-align: center;
   }
+
+  .sm\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-\[2rem\]{
+    font-size: 2rem;
+  }
+
+  .sm\:text-\[3rem\]{
+    font-size: 3rem;
+  }
+
+  .sm\:text-\[1\.6rem\]{
+    font-size: 1.6rem;
+  }
 }
 
 @media (min-width: 768px){
   .md\:w-full{
     width: 100%;
+  }
+
+  .md\:w-\[40rem\]{
+    width: 40rem;
+  }
+
+  .md\:w-\[50rem\]{
+    width: 50rem;
+  }
+
+  .md\:w-\[60rem\]{
+    width: 60rem;
+  }
+
+  .md\:w-\[55rem\]{
+    width: 55rem;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
   }
 
   .md\:flex-col{
@@ -1039,9 +1104,41 @@ select{
   .md\:justify-center{
     justify-content: center;
   }
+
+  .md\:border-4{
+    border-width: 4px;
+  }
+
+  .md\:text-center{
+    text-align: center;
+  }
+
+  .md\:text-\[2rem\]{
+    font-size: 2rem;
+  }
+
+  .md\:text-\[3rem\]{
+    font-size: 3rem;
+  }
+
+  .md\:text-\[2\.2rem\]{
+    font-size: 2.2rem;
+  }
 }
 
 @media (min-width: 1024px){
+  .lg\:w-\[30rem\]{
+    width: 30rem;
+  }
+
+  .lg\:w-\[50rem\]{
+    width: 50rem;
+  }
+
+  .lg\:w-full{
+    width: 100%;
+  }
+
   .lg\:flex-row{
     flex-direction: row;
   }
@@ -1054,7 +1151,34 @@ select{
     justify-content: space-evenly;
   }
 
+  .lg\:border-0{
+    border-width: 0px;
+  }
+
+  .lg\:text-left{
+    text-align: left;
+  }
+
   .lg\:text-center{
     text-align: center;
+  }
+
+  .lg\:text-\[3\.5rem\]{
+    font-size: 3.5rem;
+  }
+
+  .lg\:text-\[3rem\]{
+    font-size: 3rem;
+  }
+
+  .lg\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:w-\[30rem\]{
+    width: 30rem;
   }
 }
