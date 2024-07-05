@@ -763,32 +763,16 @@ select{
   height: 15rem;
 }
 
-.h-\[40rem\]{
-  height: 40rem;
-}
-
 .h-\[3rem\]{
   height: 3rem;
 }
 
-.h-\[13rem\]{
-  height: 13rem;
+.h-\[40rem\]{
+  height: 40rem;
 }
 
 .w-\[30rem\]{
   width: 30rem;
-}
-
-.w-\[31rem\]{
-  width: 31rem;
-}
-
-.w-\[30\.3rem\]{
-  width: 30.3rem;
-}
-
-.w-full{
-  width: 100%;
 }
 
 .flex-col{
@@ -961,6 +945,11 @@ select{
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.text-secondary{
+  --tw-text-opacity: 1;
+  color: rgb(22 121 171 / var(--tw-text-opacity));
+}
+
 .text-txtHover{
   --tw-text-opacity: 1;
   color: rgb(197 255 149 / var(--tw-text-opacity));
@@ -974,11 +963,6 @@ select{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-secondary{
-  --tw-text-opacity: 1;
-  color: rgb(22 121 171 / var(--tw-text-opacity));
 }
 
 .hover\:bg-secondary:hover{
@@ -1006,6 +990,10 @@ select{
     width: 100%;
   }
 
+  .sm\:flex-row{
+    flex-direction: row;
+  }
+
   .sm\:flex-col{
     flex-direction: column;
   }
@@ -1014,22 +1002,30 @@ select{
     justify-content: center;
   }
 
-  .sm\:justify-evenly{
-    justify-content: space-evenly;
-  }
-
-  .sm\:text-left{
-    text-align: left;
+  .sm\:border-4{
+    border-width: 4px;
   }
 
   .sm\:text-center{
     text-align: center;
+  }
+
+  .sm\:text-\[1\.6rem\]{
+    font-size: 1.6rem;
+  }
+
+  .sm\:text-\[2rem\]{
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 768px){
   .md\:w-full{
     width: 100%;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
   }
 
   .md\:flex-col{
@@ -1039,9 +1035,33 @@ select{
   .md\:justify-center{
     justify-content: center;
   }
+
+  .md\:border-4{
+    border-width: 4px;
+  }
+
+  .md\:text-center{
+    text-align: center;
+  }
+
+  .md\:text-\[2\.2rem\]{
+    font-size: 2.2rem;
+  }
+
+  .md\:text-\[2rem\]{
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 1024px){
+  .lg\:w-\[50rem\]{
+    width: 50rem;
+  }
+
+  .lg\:w-full{
+    width: 100%;
+  }
+
   .lg\:flex-row{
     flex-direction: row;
   }
@@ -1050,11 +1070,24 @@ select{
     flex-direction: column;
   }
 
-  .lg\:justify-evenly{
-    justify-content: space-evenly;
+  .lg\:border-0{
+    border-width: 0px;
   }
 
-  .lg\:text-center{
-    text-align: center;
+  .lg\:text-left{
+    text-align: left;
+  }
+
+  .lg\:text-\[3\.5rem\]{
+    font-size: 3.5rem;
+  }
+
+  .lg\:text-\[3rem\]{
+    font-size: 3rem;
+  }
+
+  .lg\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
