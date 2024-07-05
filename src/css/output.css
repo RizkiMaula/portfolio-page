@@ -779,6 +779,18 @@ select{
   width: 30rem;
 }
 
+.w-\[31rem\]{
+  width: 31rem;
+}
+
+.w-\[30\.3rem\]{
+  width: 30.3rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -990,6 +1002,10 @@ select{
 }
 
 @media (min-width: 640px){
+  .sm\:w-full{
+    width: 100%;
+  }
+
   .sm\:flex-col{
     flex-direction: column;
   }
@@ -1001,9 +1017,21 @@ select{
   .sm\:justify-evenly{
     justify-content: space-evenly;
   }
+
+  .sm\:text-left{
+    text-align: left;
+  }
+
+  .sm\:text-center{
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px){
+  .md\:w-full{
+    width: 100%;
+  }
+
   .md\:flex-col{
     flex-direction: column;
   }
@@ -1024,5 +1052,9 @@ select{
 
   .lg\:justify-evenly{
     justify-content: space-evenly;
+  }
+
+  .lg\:text-center{
+    text-align: center;
   }
 }
