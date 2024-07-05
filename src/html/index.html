@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html
   lang="en"
-  class="font-poppins"
+  class="font-poppins scroll-smooth"
 >
   <head>
     <meta charset="UTF-8" />
@@ -20,28 +20,28 @@
     <title>Rizki Maulana Portfolio</title>
   </head>
   <body>
-    <nav class="flex justify-between px-16 py-[0.91rem]">
-      <h1 class="">Sempak Meledak</h1>
+    <nav class="flex justify-between px-16 py-[0.91rem] bg-white fixed top-0 w-[100%]">
+      <h1 class=""><a href="#">Rizki Maulana </a></h1>
       <ul class="flex justify-center font-bold">
         <li>
           <a
-            href="#"
-            class="p-4 text-txtPrimary hover:bg-secondary hover:text-txtHover"
-            >Home</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
+            href="#about"
             class="p-4 text-txtPrimary hover:bg-secondary hover:text-txtHover"
             >About</a
           >
         </li>
         <li>
           <a
-            href="#"
+            href="#project"
             class="p-4 text-txtPrimary hover:bg-secondary hover:text-txtHover"
             >Project</a
+          >
+        </li>
+        <li>
+          <a
+            href="#contact"
+            class="p-4 text-txtPrimary hover:bg-secondary hover:text-txtHover"
+            >Contact</a
           >
         </li>
       </ul>
@@ -59,7 +59,10 @@
     </article>
 
     <!-- about -->
-    <article class="flex flex-col gap-4 p-3 text-center bg-secondary">
+    <article
+      class="flex flex-col gap-4 p-3 text-center bg-secondary"
+      id="about"
+    >
       <div class="flex flex-col gap-3 px-10 py-4">
         <h2 class="text-4xl font-bold text-left text-txtPrimary">Who Am I?</h2>
         <p class="text-justify text-txtPrimary">
@@ -305,7 +308,10 @@
     </article>
 
     <!-- project -->
-    <article class="flex flex-col gap-4 px-10 py-4 text-center bg-primary">
+    <article
+      class="flex flex-col gap-4 px-10 py-4 text-center bg-primary"
+      id="project"
+    >
       <h2 class="text-4xl font-bold text-left text-txtPrimary">Project</h2>
       <div class="flex justify-center gap-4">
         <!-- card -->
@@ -378,7 +384,10 @@
     </article>
 
     <!-- contact -->
-    <article class="flex flex-col gap-10 px-10 py-4 text-center bg-secondary">
+    <article
+      class="flex flex-col gap-10 px-10 py-4 text-center bg-secondary"
+      id="contact"
+    >
       <h2 class="text-4xl font-bold text-center text-txtPrimary">Contact Me</h2>
       <div class="flex gap-6 sm:flex-col lg:flex-row justify-evenly">
         <form
